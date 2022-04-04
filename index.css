@@ -76,4 +76,6 @@ input {
     font-size: 1.1rem;
    
 }
-
+label {
+    color: #D5D4D8;
+}
