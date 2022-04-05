@@ -3,7 +3,7 @@ let pass2 = document.getElementById("pass-2")
 let pass3 = document.getElementById("pass-3")
 let pass4 = document.getElementById("pass-4")
 let btn = document.querySelector("button")
-let isGenerate = false
+
 
 btn.addEventListener("click", passGenerator);
 pass1.addEventListener("click", copyFunction1)
@@ -27,7 +27,7 @@ function randomPass() {
         newPass += charsPass[randomChar] 
     }
 }
-    isGenerate = true
+  
 return newPass
 }
 
